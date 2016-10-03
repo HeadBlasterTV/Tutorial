@@ -2,3 +2,6 @@ name: TutorialPlugin
 author: Craysser
 version: 1.0.0
 main: me.headblastertv.Tutorial
+commands: 
+  tutorial:
+    description: Der Tutorial Command
