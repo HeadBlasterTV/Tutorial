@@ -5,3 +5,4 @@ main: me.headblastertv.Tutorial
 commands: 
   tutorial:
     description: Der Tutorial Command
+    usage: /tutorial
