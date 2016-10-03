@@ -21,7 +21,7 @@ public class TutorialCommand implements CommandExecutor{
 					
 					p.sendMessage("§4[§cTutorial§4]§cDer Command funktioniert!"); //Sendet dem Spieler die Message: §4[§cTutorial§4]§cDer Command funktioniert! Die § Zeichen stehen für &
 					p.playSound(p.getLocation(), Sound.BLOCK_NOTE_PLING, 1, 1);   //Spielt den Sound BLOCK_NOTE_PLING beim Spieler ab
-				}
+				} else p.sendMessage("§4[§cTutorial§4]§cDu brauchst die Permission §4tutorial.command");
 				
 			}
 			
